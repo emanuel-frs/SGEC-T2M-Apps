@@ -4,15 +4,17 @@
   "ControlUniqueIds": {
     "App": 1,
     "Button1": 5,
+    "Button2": 10,
     "Gallery1": 6,
     "galleryTemplate1": 7,
     "Host": 3,
+    "Label1": 9,
     "Screen1": 4,
     "Tela 2- teste": 8
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "10/22/2024 18:07:55",
+  "HeaderLastSavedDateTimeUTC": "10/22/2024 18:08:47",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -50,14 +52,17 @@
   "OrderTemplate": {},
   "OrderXMLTemplate": {
     "button": 0,
-    "gallery": 1
+    "gallery": 1,
+    "label": 2
   },
   "OverridablePropertiesEntry": {
     "App": {},
     "Button1": {},
+    "Button2": {},
     "Gallery1": {},
     "galleryTemplate1": {},
     "Host": {},
+    "Label1": {},
     "Screen1": {},
     "Tela 2- teste": {}
   },
@@ -66,9 +71,11 @@
   "PublishOrderIndices": {
     "App": 0,
     "Button1": 0,
+    "Button2": 0,
     "Gallery1": 1,
     "galleryTemplate1": 2,
     "Host": 0,
+    "Label1": 0,
     "Screen1": 0,
     "Tela 2- teste": 0
   },

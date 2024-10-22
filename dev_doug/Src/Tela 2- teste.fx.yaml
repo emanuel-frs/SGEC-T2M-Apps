@@ -1,2 +1,17 @@
 "'Tela 2- teste' As screen":
 
+    Label1 As label:
+        Align: =Align.Center
+        Height: =120
+        Text: ="Titulo pag teste"
+        Width: =1107
+        X: =40
+        Y: =40
+        ZIndex: =1
+
+    Button2 As button:
+        Text: ="Botão"
+        X: =432
+        Y: =228
+        ZIndex: =2
+
