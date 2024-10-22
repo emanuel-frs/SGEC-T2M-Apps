@@ -1,0 +1,121 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr24d_eventos",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr24d_evento",
+    "Name": "Eventos",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Proprietário",
+      "cr24d_datadoevento": "DataDoEvento",
+      "cr24d_descricao": "Descricao",
+      "cr24d_evento_AsyncOperations": "Trabalhos do Sistema",
+      "cr24d_evento_BulkDeleteFailures": "Falhas da Exclusão em Massa",
+      "cr24d_evento_MailboxTrackingFolders": "Pastas de Acompanhamento Automático da Caixa de Correio",
+      "cr24d_evento_PrincipalObjectAttributeAccesses": "Compartilhamento de Campo",
+      "cr24d_evento_ProcessSession": "Sessões de Processo",
+      "cr24d_evento_SyncErrors": "Erros de Sincronização",
+      "cr24d_eventoid": "Evento",
+      "cr24d_eventopalestrante_cr24d_evento_cr24d_evento": "EventoPalestrantes",
+      "cr24d_inscricao_Evento_cr24d_evento": "Inscricaos",
+      "cr24d_localdoevento": "LocalDoEvento",
+      "cr24d_nomedoevento": "NomeDoEvento",
+      "cr24d_statusdoevento": "StatusDoEvento",
+      "createdby": "Criada Por",
+      "createdon": "Data de Criação",
+      "createdonbehalfby": "Criado por (Delegado)",
+      "importsequencenumber": "Número de Sequência de Importação",
+      "modifiedby": "Modificado Por",
+      "modifiedon": "Data de Modificação",
+      "modifiedonbehalfby": "Modificado por (Delegado)",
+      "overriddencreatedon": "Registro Criado em",
+      "owningbusinessunit": "Unidade de Negócios Proprietária",
+      "owningteam": "Equipe Proprietária",
+      "owninguser": "Usuário Proprietário",
+      "statecode": "Status",
+      "statuscode": "Razão do Status",
+      "timezoneruleversionnumber": "Número de Versão da Regra de Fuso Horário",
+      "utcconversiontimezonecode": "Código de Fuso Horário de Conversão de UTC",
+      "versionnumber": "Número da Versão"
+    },
+    "PreferredName": "Eventos",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Eventos (Views)",
+    "Name": "_cr24d_evento_views",
+    "RelatedEntityName": "Eventos",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "1e9377a5-7fa7-4e50-bd41-c11bf29c5c8e": "Eventos Inativos(as)",
+      "211f51a0-2265-4399-a60c-59b4b001ebee": "Eventos Ativos(as)",
+      "28aef1e4-d367-454c-84d2-4db4a421f4c1": "Exibição de Localização Avançada de Evento",
+      "4aab6ea0-3adb-4725-88e6-e13009868326": "Exibição de Consulta de Evento",
+      "a31fb6ad-5887-4cac-bfdd-a0c604f6c5ad": "Exibição Associada de Evento"
+    }
+  },
+  {
+    "DisplayName": "StatusDoEvento (Eventos)",
+    "Name": "cr24d_evento_cr24d_statusdoevento",
+    "OptionSetInfoNameMapping": {
+      "452390000": "Aberto",
+      "452390001": "Fechado",
+      "452390002": "Cancelado"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "cr24d_statusdoevento",
+        "OptionSetReferenceEntityName": "Eventos"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "cr24d_statusdoevento",
+    "RelatedEntityName": "Eventos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status (Eventos)",
+    "Name": "cr24d_evento_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Ativo(a)",
+      "1": "Inativo(a)"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Eventos"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Eventos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Razão do Status (Eventos)",
+    "Name": "cr24d_evento_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Ativo(a)",
+      "2": "Inativo(a)"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Eventos"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Eventos",
+    "Type": "OptionSetInfo"
+  }
+]
