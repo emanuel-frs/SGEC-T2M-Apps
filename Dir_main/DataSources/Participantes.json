@@ -1,0 +1,97 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr24d_participantes",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr24d_participante",
+    "Name": "Participantes",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Proprietário",
+      "cr24d_email": "Email",
+      "cr24d_inscricao_Participante_cr24d_participante": "Inscricaos",
+      "cr24d_nomedoparticipante": "NomeDoParticipante",
+      "cr24d_participante_AsyncOperations": "Trabalhos do Sistema",
+      "cr24d_participante_BulkDeleteFailures": "Falhas da Exclusão em Massa",
+      "cr24d_participante_MailboxTrackingFolders": "Pastas de Acompanhamento Automático da Caixa de Correio",
+      "cr24d_participante_PrincipalObjectAttributeAccesses": "Compartilhamento de Campo",
+      "cr24d_participante_ProcessSession": "Sessões de Processo",
+      "cr24d_participante_SyncErrors": "Erros de Sincronização",
+      "cr24d_participanteid": "Participante",
+      "cr24d_telefone": "Telefone",
+      "createdby": "Criada Por",
+      "createdon": "Data de Criação",
+      "createdonbehalfby": "Criado por (Delegado)",
+      "importsequencenumber": "Número de Sequência de Importação",
+      "modifiedby": "Modificado Por",
+      "modifiedon": "Data de Modificação",
+      "modifiedonbehalfby": "Modificado por (Delegado)",
+      "overriddencreatedon": "Registro Criado em",
+      "owningbusinessunit": "Unidade de Negócios Proprietária",
+      "owningteam": "Equipe Proprietária",
+      "owninguser": "Usuário Proprietário",
+      "statecode": "Status",
+      "statuscode": "Razão do Status",
+      "timezoneruleversionnumber": "Número de Versão da Regra de Fuso Horário",
+      "utcconversiontimezonecode": "Código de Fuso Horário de Conversão de UTC",
+      "versionnumber": "Número da Versão"
+    },
+    "PreferredName": "Participantes",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Participantes (Views)",
+    "Name": "_cr24d_participante_views",
+    "RelatedEntityName": "Participantes",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "0d2497af-576f-4c3f-9fa1-bfd4f3234fc8": "Participantes Ativos(as)",
+      "7da212fe-0ac7-4c87-a96e-86363672ef66": "Exibição de Consulta de Participante",
+      "b2268c54-562c-4d37-a973-2fae54ec3c3d": "Exibição de Localização Avançada de Participante",
+      "b4325884-ba03-455c-b5dd-65fafb7ba9a1": "Exibição Associada de Participante",
+      "fdddc3bc-22ae-4d09-9955-687fc4b68633": "Participantes Inativos(as)"
+    }
+  },
+  {
+    "DisplayName": "Status (Participantes)",
+    "Name": "cr24d_participante_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Ativo(a)",
+      "1": "Inativo(a)"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Participantes"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Participantes",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Razão do Status (Participantes)",
+    "Name": "cr24d_participante_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Ativo(a)",
+      "2": "Inativo(a)"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Participantes"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Participantes",
+    "Type": "OptionSetInfo"
+  }
+]
