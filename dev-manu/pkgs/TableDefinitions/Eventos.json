@@ -2,7 +2,7 @@
   "DatasetName": "default.cds",
   "EntityName": "Eventos",
   "environmentVariableName": "",
-  "InstanceUrl": "https://org41fc36b7.crm2.dynamics.com",
+  "InstanceUrl": "https://org41fc36b7.crm2.dynamics.com/",
   "LocalReferenceDSJson": {
     "entitySetName": "cr24d_eventos",
     "logicalName": "cr24d_evento"
