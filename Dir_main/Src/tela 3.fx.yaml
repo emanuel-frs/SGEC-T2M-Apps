@@ -1,2 +1,8 @@
 "'tela 3' As screen":
 
+    Button3 As button:
+        Text: ="Botão"
+        X: =40
+        Y: =40
+        ZIndex: =1
+
