@@ -10,8 +10,10 @@
         ZIndex: =1
 
     Button2 As button:
+        Height: =152
         Text: ="Botão"
-        X: =432
-        Y: =228
+        Width: =410
+        X: =476
+        Y: =392
         ZIndex: =2
 

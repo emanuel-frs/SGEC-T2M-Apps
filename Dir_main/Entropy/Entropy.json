@@ -14,7 +14,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "10/22/2024 18:25:46",
+  "HeaderLastSavedDateTimeUTC": "10/22/2024 18:27:47",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -71,11 +71,11 @@
   "PublishOrderIndices": {
     "App": 0,
     "Button1": 0,
-    "Button2": 0,
+    "Button2": 4,
     "Gallery1": 1,
     "galleryTemplate1": 2,
     "Host": 0,
-    "Label1": 0,
+    "Label1": 3,
     "Screen1": 0,
     "Tela 2- teste": 0
   },
