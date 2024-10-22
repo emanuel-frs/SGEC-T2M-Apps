@@ -7,11 +7,12 @@
     "Gallery1": 6,
     "galleryTemplate1": 7,
     "Host": 3,
-    "Screen1": 4
+    "Screen1": 4,
+    "Tela 2- teste": 8
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "10/22/2024 18:03:05",
+  "HeaderLastSavedDateTimeUTC": "10/22/2024 18:05:48",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -57,7 +58,8 @@
     "Gallery1": {},
     "galleryTemplate1": {},
     "Host": {},
-    "Screen1": {}
+    "Screen1": {},
+    "Tela 2- teste": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
@@ -67,20 +69,21 @@
     "Gallery1": 1,
     "galleryTemplate1": 2,
     "Host": 0,
-    "Screen1": 0
+    "Screen1": 0,
+    "Tela 2- teste": 0
   },
   "ResourcesJsonIndices": {},
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.2177376,
+    "AnalysisLoadTime": 0.1497118,
     "ControlCount": {
       "button": 1,
       "gallery": 1,
       "galleryTemplate": 1,
       "screen": 1
     },
-    "DeserializationLoadTime": 1.6463664
+    "DeserializationLoadTime": 0.7891898
   },
   "WasLocalDatabaseReferencesEmpty": false
 }
