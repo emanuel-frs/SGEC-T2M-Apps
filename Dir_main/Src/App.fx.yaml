@@ -3,6 +3,7 @@ App As appinfo:
     OnStart: |-
         =Set(update, 0);
         Set(FontSize, 16);
+        Set(DarkMode, false);
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:
