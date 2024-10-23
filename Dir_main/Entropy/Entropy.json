@@ -22,23 +22,31 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "10/23/2024 17:00:30",
+  "HeaderLastSavedDateTimeUTC": "10/23/2024 17:47:33",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {
     "A-": "c092538a-f15f-4f54-9a7b-de20175d7b8c.png",
     "A+": "401110b4-0c7c-4a7c-9d00-331c58350c01.png",
+    "A+DarkMode": "75f17592-b1db-4728-8cbd-4d7c8dca7185.png",
+    "A-DarkMode": "f77a57ad-7648-49fc-9caf-9b6fc1c4f4b8.png",
     "Design sem nome (10)": "31cf38a9-ed1b-4e66-9cae-da569e605f92.png",
+    "logo_t2mDarkMode": "870e6a9a-3386-4d15-892d-5da66ce7e150.png",
     "pexels-pixabay-356065 1": "b0a4eed1-e783-4a1d-b7e2-79e4533b3496.png",
-    "Vector": "9e6ec2a1-6d3c-484f-96a1-a7edda2f5f45.png"
+    "Vector": "9e6ec2a1-6d3c-484f-96a1-a7edda2f5f45.png",
+    "VectorDarkMode": "9a24f382-4f32-49ea-99be-4062b009b10e.png"
   },
   "LocalResourceRootPaths": {
     "A-": "https://docserverpwaprodsbr.blob.core.windows.net/c010fd6d-767e-498c-b33b-adeaf585365e-1/resource/Assets0Images0c092538a-f15f-4f54-9a7b-de20175d7b8c.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-10-23T16%3A59%3A38Z&ske=2024-10-24T17%3A14%3A38Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-10-24T17%3A14%3A38Z&sr=b&sp=r&sig=vYr4MjTE358u81qvwreMrBt1jpZDz8jsiObzpGALz8g%3D",
     "A+": "https://docserverpwaprodsbr.blob.core.windows.net/c010fd6d-767e-498c-b33b-adeaf585365e-1/resource/Assets0Images0401110b4-0c7c-4a7c-9d00-331c58350c01.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-10-23T16%3A59%3A38Z&ske=2024-10-24T17%3A14%3A38Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-10-24T17%3A14%3A38Z&sr=b&sp=r&sig=PjfiA7%2FF5%2BVa1k%2FSm5GOPRa6rXZjgRtnu5eyjvbn0KQ%3D",
+    "A+DarkMode": "https://docserverpwaprodsbr.blob.core.windows.net/c010fd6d-767e-498c-b33b-adeaf585365e-1/resource/f9b83872-2a8f-4741-8a85-a137ffd55ec5.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-10-23T17%3A45%3A51Z&ske=2024-10-24T18%3A00%3A51Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-10-24T18%3A00%3A51Z&sr=b&sp=r&sig=ia%2BpI3HyPzymMVT4zCWjPkoU2%2FemZWaaD%2B2Rtf5kx3E%3D",
+    "A-DarkMode": "https://docserverpwaprodsbr.blob.core.windows.net/c010fd6d-767e-498c-b33b-adeaf585365e-1/resource/35236a14-67c2-4848-aa70-f5cd739b2702.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-10-23T17%3A45%3A52Z&ske=2024-10-24T18%3A00%3A52Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-10-24T18%3A00%3A52Z&sr=b&sp=r&sig=5OMrbMsuPRKR%2Fndb1mnzXCLT1ILNUi12CIw8aghl2eE%3D",
     "Design sem nome (10)": "https://docserverpwaprodsbr.blob.core.windows.net/c010fd6d-767e-498c-b33b-adeaf585365e-1/resource/Assets0Images031cf38a9-ed1b-4e66-9cae-da569e605f92.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-10-23T16%3A59%3A38Z&ske=2024-10-24T17%3A14%3A38Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-10-24T17%3A14%3A38Z&sr=b&sp=r&sig=l9AZw5vierwej51V7zBm9sRiBG1lqDKweVYOfwb1T4o%3D",
+    "logo_t2mDarkMode": "https://docserverpwaprodsbr.blob.core.windows.net/c010fd6d-767e-498c-b33b-adeaf585365e-1/resource/ffc20e9d-1749-48fb-a528-d88994145616.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-10-23T17%3A45%3A52Z&ske=2024-10-24T18%3A00%3A52Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-10-24T18%3A00%3A52Z&sr=b&sp=r&sig=4t2%2FXIbl%2Fd7uwGBnWYOBk4PUfXzscsTtOYaxzUJ5msw%3D",
     "pexels-pixabay-356065 1": "https://docserverpwaprodsbr.blob.core.windows.net/c010fd6d-767e-498c-b33b-adeaf585365e-1/resource/Assets0Images0b0a4eed1-e783-4a1d-b7e2-79e4533b3496.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-10-23T16%3A59%3A38Z&ske=2024-10-24T17%3A14%3A38Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-10-24T17%3A14%3A38Z&sr=b&sp=r&sig=%2BNSiimmjRtfeMzAPVZ1O3EFLnrKgUZwAbOmIUK1q0kg%3D",
-    "Vector": "https://docserverpwaprodsbr.blob.core.windows.net/c010fd6d-767e-498c-b33b-adeaf585365e-1/resource/Assets0Images09e6ec2a1-6d3c-484f-96a1-a7edda2f5f45.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-10-23T16%3A59%3A38Z&ske=2024-10-24T17%3A14%3A38Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-10-24T17%3A14%3A38Z&sr=b&sp=r&sig=E4WeY2RRekJZj2SwFRhC4%2Fg84q%2F7%2Flwb%2BYWiKt1Ta0Y%3D"
+    "Vector": "https://docserverpwaprodsbr.blob.core.windows.net/c010fd6d-767e-498c-b33b-adeaf585365e-1/resource/Assets0Images09e6ec2a1-6d3c-484f-96a1-a7edda2f5f45.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-10-23T16%3A59%3A38Z&ske=2024-10-24T17%3A14%3A38Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-10-24T17%3A14%3A38Z&sr=b&sp=r&sig=E4WeY2RRekJZj2SwFRhC4%2Fg84q%2F7%2Flwb%2BYWiKt1Ta0Y%3D",
+    "VectorDarkMode": "https://docserverpwaprodsbr.blob.core.windows.net/c010fd6d-767e-498c-b33b-adeaf585365e-1/resource/8b6658fc-107f-47c6-afcd-c6a9f74bb604.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-10-23T17%3A45%3A52Z&ske=2024-10-24T18%3A00%3A52Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-10-24T18%3A00%3A52Z&sr=b&sp=r&sig=1pjizxAEAd2x09ol0w3B7veN1WeLVWVNFKcsfC6vsGg%3D"
   },
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
@@ -119,17 +127,23 @@
   "ResourcesJsonIndices": {
     "Image-A-": 4,
     "Image-A+": 3,
+    "Image-A+DarkMode": 6,
+    "Image-A-DarkMode": 7,
     "Image-Design sem nome (10)": 2,
+    "Image-logo_t2mDarkMode": 9,
     "Image-pexels-pixabay-356065 1": 1,
     "Image-SampleImage": 0,
-    "Image-Vector": 5
+    "Image-Vector": 5,
+    "Image-VectorDarkMode": 8
   },
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
     "AnalysisLoadTime": 0.2440471,
     "ControlCount": {
+      "845cf74d499e4967a04a28db53975a7a": 1,
       "button": 3,
+      "e0556f676b7d4d88911fc2ac9a918ee1": 1,
       "groupContainer": 2,
       "image": 5,
       "label": 2,

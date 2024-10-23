@@ -1,7 +1,7 @@
 Login As screen:
 
     cntrLogo As groupContainer.manualLayoutContainer:
-        Fill: =If(DarkMode, RGBA(1, 169, 152, 1), RGBA(11, 17, 17, 1))
+        Fill: =If(DarkMode, DarkColor, LightColor)
         Height: =768
         RadiusBottomLeft: =0
         RadiusBottomRight: =0
@@ -14,10 +14,11 @@ Login As screen:
         imgLogo As image:
             Height: =147 + update
             Image: ='Design sem nome (10)'
+            Visible: =!DarkMode
             Width: =317 + update
             X: =205
             Y: =(lblTituloLogin.Y - 200) + update
-            ZIndex: =1
+            ZIndex: =3
 
         lblTituloLogin As label:
             Align: =Align.Center
@@ -29,7 +30,7 @@ Login As screen:
             Width: =567
             X: =64
             Y: =399
-            ZIndex: =2
+            ZIndex: =4
 
         btnEntrar As button:
             Color: =RGBA(1, 169, 152, 1)
@@ -40,7 +41,7 @@ Login As screen:
             Width: =317 + update
             X: =189
             Y: =(lblTituloLogin.Y + 150) + update
-            ZIndex: =3
+            ZIndex: =5
 
         "'imgA+' As image":
             Height: =48
@@ -50,7 +51,7 @@ Login As screen:
                 Set(update, Min(update + 4, 16));
             Width: =36
             X: =533
-            ZIndex: =4
+            ZIndex: =6
 
         "'imgA-' As image":
             Height: =48
@@ -60,7 +61,7 @@ Login As screen:
                 Set(update, Max(update -4, 0));
             Width: =29
             X: =586
-            ZIndex: =5
+            ZIndex: =7
 
         imgVector As image:
             Height: =26
@@ -69,7 +70,7 @@ Login As screen:
             Width: =32
             X: =630
             Y: =10
-            ZIndex: =6
+            ZIndex: =8
 
     ctnFoto As groupContainer.manualLayoutContainer:
         Height: =768
