@@ -12,9 +12,9 @@ Login As screen:
         ZIndex: =1
 
         imgLogo As image:
-            Height: =147
+            Height: =147 + Height
             Image: ='Design sem nome (10)'
-            Width: =317
+            Width: =317 + Width
             X: =195
             Y: =248
             ZIndex: =1
@@ -33,8 +33,9 @@ Login As screen:
         btnEntrar As button:
             Color: =RGBA(1, 169, 152, 1)
             Fill: =RGBA(16, 25, 25, 1)
+            Height: =40 + Height
             Text: ="Entrar"
-            Width: =317 + 
+            Width: =317 + Width
             X: =195
             Y: =462
             ZIndex: =3
@@ -44,8 +45,8 @@ Login As screen:
             Image: ='A+'
             OnSelect: |-
                 =Set(FontSize, FontSize + 2);
-                Set(upWidth, upWidth + 2);
-                Set(upHeight, upHeight + 2);
+                Set(Width, Width +2);
+                Set(Height, Height +2);
             Width: =36
             X: =533
             ZIndex: =4
@@ -53,8 +54,10 @@ Login As screen:
         "'imgA-' As image":
             Height: =48
             Image: ='A-'
-            OnSelect: |
-                =Set(FontSize, FontSize - 2)
+            OnSelect: |-
+                =Set(FontSize, FontSize - 2);
+                Set(Width, Width -2);
+                Set(Height, Height -2);
             Width: =29
             X: =586
             ZIndex: =5
