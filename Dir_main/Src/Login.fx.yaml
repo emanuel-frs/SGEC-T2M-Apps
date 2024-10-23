@@ -16,7 +16,7 @@ Login As screen:
             Image: ='Design sem nome (10)'
             Width: =317 + update
             X: =205
-            Y: =239
+            Y: =(lblTituloLogin.Y - 200) + update
             ZIndex: =1
 
         lblTituloLogin As label:
@@ -35,10 +35,11 @@ Login As screen:
             Color: =RGBA(1, 169, 152, 1)
             Fill: =RGBA(16, 25, 25, 1)
             Height: =40 + update
+            Size: =FontSize
             Text: ="Entrar"
             Width: =317 + update
             X: =189
-            Y: =510
+            Y: =(lblTituloLogin.Y + 150) + update
             ZIndex: =3
 
         "'imgA+' As image":
