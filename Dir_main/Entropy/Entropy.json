@@ -3,20 +3,20 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
-    "Button1": 5,
-    "Button2": 10,
-    "Button3": 12,
-    "Gallery1": 6,
-    "galleryTemplate1": 7,
+    "Button1": 7,
+    "Button2": 12,
+    "Button3": 5,
+    "Gallery1": 8,
+    "galleryTemplate1": 9,
     "Host": 3,
-    "Label1": 9,
-    "Screen1": 4,
-    "Tela 2- teste": 8,
-    "tela 3": 11
+    "Label1": 11,
+    "Screen1": 6,
+    "Tela 2- teste": 10,
+    "tela 3": 4
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "10/22/2024 19:23:38",
+  "HeaderLastSavedDateTimeUTC": "10/23/2024 12:41:23",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -89,14 +89,15 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.1497118,
+    "AnalysisLoadTime": 0.1293592,
     "ControlCount": {
-      "button": 1,
+      "button": 3,
       "gallery": 1,
       "galleryTemplate": 1,
-      "screen": 1
+      "label": 1,
+      "screen": 3
     },
-    "DeserializationLoadTime": 0.7891898
+    "DeserializationLoadTime": 0.6372711
   },
   "WasLocalDatabaseReferencesEmpty": false
 }
