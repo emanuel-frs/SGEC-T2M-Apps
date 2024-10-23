@@ -13,7 +13,7 @@ Login As screen:
 
         imgLogo As image:
             Height: =147 + update
-            Image: =If(DarkMode, 'logo_t2mDarkMode' ,'Design sem nome (10)')
+            Image: =If(DarkMode, logo_t2mDarkMode ,'Design sem nome (10)')
             Visible: =!DarkMode
             Width: =317 + update
             X: =205
