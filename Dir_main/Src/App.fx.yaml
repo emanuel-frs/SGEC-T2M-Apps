@@ -1,8 +1,8 @@
 App As appinfo:
     BackEnabled: =true
     OnStart: |-
-        =Set(Height, 0);
-        Set(FontSize, 14);
+        =Set(update, 0);
+        Set(FontSize, 16);
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:

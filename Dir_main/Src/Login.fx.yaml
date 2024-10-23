@@ -12,11 +12,11 @@ Login As screen:
         ZIndex: =1
 
         imgLogo As image:
-            Height: =147 + Height
+            Height: =147 + update
             Image: ='Design sem nome (10)'
-            Width: =317 + Width
-            X: =195
-            Y: =178
+            Width: =317 + update
+            X: =205
+            Y: =239
             ZIndex: =1
 
         lblTituloLogin As label:
@@ -27,18 +27,18 @@ Login As screen:
             Size: =FontSize
             Text: ="Sistemas de Gerenciamento de Eventos Corporativos"
             Width: =567
-            X: =70
-            Y: =372
+            X: =64
+            Y: =399
             ZIndex: =2
 
         btnEntrar As button:
             Color: =RGBA(1, 169, 152, 1)
             Fill: =RGBA(16, 25, 25, 1)
-            Height: =40 + Height
+            Height: =40 + update
             Text: ="Entrar"
-            Width: =317 + Width
-            X: =195
-            Y: =478
+            Width: =317 + update
+            X: =189
+            Y: =510
             ZIndex: =3
 
         "'imgA+' As image":
@@ -46,8 +46,7 @@ Login As screen:
             Image: ='A+'
             OnSelect: |-
                 =Set(FontSize, Min(FontSize + 2, 24));
-                Set(Width, Width +2);
-                Set(Height, Height +2)
+                Set(update, Min(update + 2, 16));
             Width: =36
             X: =533
             ZIndex: =4
@@ -56,9 +55,8 @@ Login As screen:
             Height: =48
             Image: ='A-'
             OnSelect: |-
-                =Set(FontSize, Max(FontSize - 2, 14));
-                Set(Width, Width -2);
-                Set(Height, Height -2);
+                =Set(FontSize, Max(FontSize - 2, 16));
+                Set(update, Max(update -2, 0));
             Width: =29
             X: =586
             ZIndex: =5
