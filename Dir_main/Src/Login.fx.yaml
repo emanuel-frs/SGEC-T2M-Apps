@@ -56,9 +56,7 @@ Login As screen:
         "'imgA-' As image":
             Height: =48
             Image: ='A-'
-            OnSelect: |-
-                =Set(FontSize, Max(FontSize - 2, 16));
-                Set(update, Max(update -4, 0));
+            OnSelect: =
             Width: =29
             X: =586
             ZIndex: =7
@@ -86,4 +84,8 @@ Login As screen:
             Image: ='pexels-pixabay-356065 1'
             Width: =683
             ZIndex: =2
+
+    AccessibilityButtons_1 As AccessibilityButtons:
+        X: =566
+        ZIndex: =3
 
