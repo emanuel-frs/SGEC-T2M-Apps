@@ -6,7 +6,6 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "cr24d_inscricao",
-    "MaxGetRowsCount": 500,
     "Name": "Inscricaos",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Proprietário",

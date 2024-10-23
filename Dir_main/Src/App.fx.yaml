@@ -4,6 +4,8 @@ App As appinfo:
         =Set(update, 0);
         Set(FontSize, 16);
         Set(DarkMode, false);
+        Set(DarkColor, RGBA(11, 17, 17, 1));
+        Set(LightColor, RGBA(1, 169, 152, 1));
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:
