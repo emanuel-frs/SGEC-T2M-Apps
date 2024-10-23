@@ -134,10 +134,10 @@
     "PublishDataLocally": false,
     "PublishResourcesLocally": false,
     "PublishTarget": "player",
-    "UserLocale": "en-US"
+    "UserLocale": "pt-BR"
   },
   "ScreenOrder": [
-    "Screen1",
+    "Login",
     "Tela 2- teste",
     "tela 3"
   ]
