@@ -6,6 +6,7 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "cr24d_palestrante",
+    "MaxGetRowsCount": 500,
     "Name": "Palestrantes",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Proprietário",
