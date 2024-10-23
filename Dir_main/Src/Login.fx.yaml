@@ -16,18 +16,19 @@ Login As screen:
             Image: ='Design sem nome (10)'
             Width: =317 + Width
             X: =195
-            Y: =248
+            Y: =178
             ZIndex: =1
 
         lblTituloLogin As label:
             Align: =Align.Center
+            AutoHeight: =true
             FontWeight: =FontWeight.Bold
-            Height: =67
+            Height: =173
             Size: =FontSize
             Text: ="Sistemas de Gerenciamento de Eventos Corporativos"
-            Width: =317
-            X: =195
-            Y: =395
+            Width: =567
+            X: =70
+            Y: =372
             ZIndex: =2
 
         btnEntrar As button:
@@ -37,16 +38,16 @@ Login As screen:
             Text: ="Entrar"
             Width: =317 + Width
             X: =195
-            Y: =462
+            Y: =478
             ZIndex: =3
 
         "'imgA+' As image":
             Height: =48
             Image: ='A+'
             OnSelect: |-
-                =Set(FontSize, FontSize + 2);
+                =Set(FontSize, Min(FontSize + 2, 24));
                 Set(Width, Width +2);
-                Set(Height, Height +2);
+                Set(Height, Height +2)
             Width: =36
             X: =533
             ZIndex: =4
@@ -55,7 +56,7 @@ Login As screen:
             Height: =48
             Image: ='A-'
             OnSelect: |-
-                =Set(FontSize, FontSize - 2);
+                =Set(FontSize, Max(FontSize - 2, 14));
                 Set(Width, Width -2);
                 Set(Height, Height -2);
             Width: =29

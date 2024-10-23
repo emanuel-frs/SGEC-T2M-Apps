@@ -2,7 +2,6 @@ App As appinfo:
     BackEnabled: =true
     OnStart: |-
         =Set(Height, 0);
-        Set(Width, 0);
         Set(FontSize, 14);
     Theme: =PowerAppsTheme
 
