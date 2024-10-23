@@ -3,7 +3,6 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
-    "Button1": 7,
     "Button2": 12,
     "Button3": 5,
     "Gallery1": 8,
@@ -16,7 +15,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "10/23/2024 12:59:58",
+  "HeaderLastSavedDateTimeUTC": "10/23/2024 13:00:21",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -59,7 +58,6 @@
   },
   "OverridablePropertiesEntry": {
     "App": {},
-    "Button1": {},
     "Button2": {},
     "Button3": {},
     "Gallery1": {},
@@ -74,7 +72,6 @@
   "PCFTemplateEntry": {},
   "PublishOrderIndices": {
     "App": 0,
-    "Button1": 0,
     "Button2": 4,
     "Button3": 0,
     "Gallery1": 1,

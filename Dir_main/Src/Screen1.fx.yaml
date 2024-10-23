@@ -12,11 +12,3 @@ Screen1 As screen:
         Y: =185
         ZIndex: =1
 
-    Button1 As button:
-        Fill: =RGBA(127, 178, 57, 1)
-        Text: ="Button"
-        Width: =272
-        X: =552
-        Y: =129
-        ZIndex: =2
-
