@@ -1,0 +1,72 @@
+Login As screen:
+
+    cntrLogo As groupContainer.manualLayoutContainer:
+        Fill: =RGBA(1, 169, 152, 1)
+        Height: =768
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Width: =683
+        X: =683
+        ZIndex: =1
+
+        imgLogo As image:
+            Height: =147
+            Image: ='Design sem nome (10)'
+            Width: =317
+            X: =195
+            Y: =248
+            ZIndex: =1
+
+        lblTituloLogin As label:
+            Align: =Align.Center
+            FontWeight: =FontWeight.Bold
+            Height: =67
+            Text: ="Sistemas de Gerenciamento de Eventos Corporativos"
+            Width: =317
+            X: =195
+            Y: =395
+            ZIndex: =2
+
+        btnEntrar As button:
+            Color: =RGBA(1, 169, 152, 1)
+            Fill: =RGBA(16, 25, 25, 1)
+            Text: ="Entrar"
+            Width: =317
+            X: =195
+            Y: =462
+            ZIndex: =3
+
+        "'imgA+' As image":
+            Height: =48
+            Image: ='A+'
+            Width: =36
+            X: =533
+            ZIndex: =4
+
+        "'imgA-' As image":
+            Height: =48
+            Image: ='A-'
+            Width: =29
+            X: =586
+            ZIndex: =5
+
+        imgVector As image:
+            Height: =48
+            Image: =Vector
+            Width: =30
+            X: =632
+            ZIndex: =6
+
+    ctnFoto As groupContainer.manualLayoutContainer:
+        Height: =768
+        Width: =683
+        ZIndex: =2
+
+        Image2 As image:
+            Height: =768
+            Image: ='pexels-pixabay-356065 1'
+            Width: =683
+            ZIndex: =2
+
