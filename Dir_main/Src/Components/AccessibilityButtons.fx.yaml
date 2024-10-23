@@ -10,7 +10,7 @@ AccessibilityButtons As CanvasComponent:
     imgVectorDark As image:
         Height: =40
         Image: =If(DarkMode, 'Vector (13)', 'Vector (12)')
-        OnSelect: =Set(DarkMode,!DarkMode);
+        OnSelect: =Set(DarkMode,!DarkMode)
         Width: =40
         X: =1292
         Y: =10

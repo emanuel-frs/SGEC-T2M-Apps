@@ -273,7 +273,7 @@
           },
           {
             "Category": "Behavior",
-            "InvariantScript": "Set(DarkMode,!DarkMode);",
+            "InvariantScript": "Set(DarkMode,!DarkMode)",
             "Property": "OnSelect",
             "RuleProviderType": "User"
           }
@@ -933,7 +933,7 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "638653070956073325",
+    "LastModifiedTimestamp": "638653076655574910",
     "Name": "AccessibilityButtons",
     "Rules": [
       {
@@ -998,7 +998,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638653070956073325",
+  "LastModifiedTimestamp": "638653076655574910",
   "Name": "07b4cef7e5b148ca8bc48c2009606d8d",
   "OverridableProperties": {},
   "Version": "1.0"
