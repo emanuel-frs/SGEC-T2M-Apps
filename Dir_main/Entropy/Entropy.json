@@ -3,26 +3,26 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
-    "btnEntrar": 20,
-    "Button2": 12,
-    "Button3": 5,
-    "cntrLogo": 13,
-    "ctnFoto": 15,
+    "btnEntrar": 13,
+    "Button2": 6,
+    "Button3": 8,
+    "cntrLogo": 10,
+    "ctnFoto": 17,
     "Host": 3,
-    "Image2": 17,
-    "imgA-": 22,
-    "imgA+": 21,
-    "imgLogo": 18,
-    "imgVector": 23,
-    "Label1": 11,
-    "lblTituloLogin": 19,
-    "Login": 6,
-    "Tela 2- teste": 10,
-    "tela 3": 4
+    "Image2": 18,
+    "imgA-": 15,
+    "imgA+": 14,
+    "imgLogo": 11,
+    "imgVector": 16,
+    "Label1": 5,
+    "lblTituloLogin": 12,
+    "Login": 9,
+    "Tela 2- teste": 4,
+    "tela 3": 7
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "10/23/2024 16:48:05",
+  "HeaderLastSavedDateTimeUTC": "10/23/2024 17:00:30",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -34,11 +34,11 @@
     "Vector": "9e6ec2a1-6d3c-484f-96a1-a7edda2f5f45.png"
   },
   "LocalResourceRootPaths": {
-    "A-": "https://docserverpwaprodsbr.blob.core.windows.net/26e72047-4aa5-45f0-a435-614fd7eea816-1/resource/d564bc02-2fc9-48a2-9b3d-bf7837d988e7.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-10-23T13%3A22%3A26Z&ske=2024-10-24T13%3A37%3A26Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-10-24T13%3A37%3A26Z&sr=b&sp=r&sig=ZJTVIeemMpLEG8fYfjSonczEmgQsFKuxYrDS3pbjLXQ%3D",
-    "A+": "https://docserverpwaprodsbr.blob.core.windows.net/26e72047-4aa5-45f0-a435-614fd7eea816-1/resource/9770624f-cc93-4f68-84a2-650fe466f61c.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-10-23T13%3A22%3A14Z&ske=2024-10-24T13%3A37%3A14Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-10-24T13%3A37%3A14Z&sr=b&sp=r&sig=tr5K6JEO0Ck9%2FrxAuOhZYSlF65TwtQAbGXK92TIWE1E%3D",
-    "Design sem nome (10)": "https://docserverpwaprodsbr.blob.core.windows.net/26e72047-4aa5-45f0-a435-614fd7eea816-1/resource/d8f7c15b-e7bb-41ed-9b61-6197e0346eb1.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-10-23T13%3A16%3A50Z&ske=2024-10-24T13%3A31%3A50Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-10-24T13%3A31%3A50Z&sr=b&sp=r&sig=ydo76DkFA%2BS6eMWQC9yk1peDdKKpx0mNcSgzp1w23Y8%3D",
-    "pexels-pixabay-356065 1": "https://docserverpwaprodsbr.blob.core.windows.net/26e72047-4aa5-45f0-a435-614fd7eea816-1/resource/a2ea2d82-a44e-4c8e-981c-94f8addac7ac.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-10-23T13%3A14%3A37Z&ske=2024-10-24T13%3A29%3A37Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-10-24T13%3A29%3A37Z&sr=b&sp=r&sig=Q5BXN2CchddqSaIrvBOFSzOl3g4wz1o9OM%2F%2FTkVl90I%3D",
-    "Vector": "https://docserverpwaprodsbr.blob.core.windows.net/26e72047-4aa5-45f0-a435-614fd7eea816-1/resource/49d90c63-542d-4bb0-9351-fc63158ba7d0.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-10-23T13%3A22%3A32Z&ske=2024-10-24T13%3A37%3A32Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-10-24T13%3A37%3A32Z&sr=b&sp=r&sig=NDLsWf966lCG03oWRNDty0BSduA8VeonenpZTg7sIIY%3D"
+    "A-": "https://docserverpwaprodsbr.blob.core.windows.net/c010fd6d-767e-498c-b33b-adeaf585365e-1/resource/Assets0Images0c092538a-f15f-4f54-9a7b-de20175d7b8c.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-10-23T16%3A59%3A38Z&ske=2024-10-24T17%3A14%3A38Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-10-24T17%3A14%3A38Z&sr=b&sp=r&sig=vYr4MjTE358u81qvwreMrBt1jpZDz8jsiObzpGALz8g%3D",
+    "A+": "https://docserverpwaprodsbr.blob.core.windows.net/c010fd6d-767e-498c-b33b-adeaf585365e-1/resource/Assets0Images0401110b4-0c7c-4a7c-9d00-331c58350c01.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-10-23T16%3A59%3A38Z&ske=2024-10-24T17%3A14%3A38Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-10-24T17%3A14%3A38Z&sr=b&sp=r&sig=PjfiA7%2FF5%2BVa1k%2FSm5GOPRa6rXZjgRtnu5eyjvbn0KQ%3D",
+    "Design sem nome (10)": "https://docserverpwaprodsbr.blob.core.windows.net/c010fd6d-767e-498c-b33b-adeaf585365e-1/resource/Assets0Images031cf38a9-ed1b-4e66-9cae-da569e605f92.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-10-23T16%3A59%3A38Z&ske=2024-10-24T17%3A14%3A38Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-10-24T17%3A14%3A38Z&sr=b&sp=r&sig=l9AZw5vierwej51V7zBm9sRiBG1lqDKweVYOfwb1T4o%3D",
+    "pexels-pixabay-356065 1": "https://docserverpwaprodsbr.blob.core.windows.net/c010fd6d-767e-498c-b33b-adeaf585365e-1/resource/Assets0Images0b0a4eed1-e783-4a1d-b7e2-79e4533b3496.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-10-23T16%3A59%3A38Z&ske=2024-10-24T17%3A14%3A38Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-10-24T17%3A14%3A38Z&sr=b&sp=r&sig=%2BNSiimmjRtfeMzAPVZ1O3EFLnrKgUZwAbOmIUK1q0kg%3D",
+    "Vector": "https://docserverpwaprodsbr.blob.core.windows.net/c010fd6d-767e-498c-b33b-adeaf585365e-1/resource/Assets0Images09e6ec2a1-6d3c-484f-96a1-a7edda2f5f45.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-10-23T16%3A59%3A38Z&ske=2024-10-24T17%3A14%3A38Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-10-24T17%3A14%3A38Z&sr=b&sp=r&sig=E4WeY2RRekJZj2SwFRhC4%2Fg84q%2F7%2Flwb%2BYWiKt1Ta0Y%3D"
   },
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
@@ -71,10 +71,10 @@
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "button": 0,
-    "groupContainer": 1,
-    "image": 2,
-    "label": 3
+    "button": 1,
+    "groupContainer": 2,
+    "image": 3,
+    "label": 0
   },
   "OverridablePropertiesEntry": {
     "App": {},
@@ -127,16 +127,15 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.1293592,
+    "AnalysisLoadTime": 0.2440471,
     "ControlCount": {
       "button": 3,
-      "gallery": 1,
-      "galleryTemplate": 1,
       "groupContainer": 2,
-      "label": 1,
+      "image": 5,
+      "label": 2,
       "screen": 3
     },
-    "DeserializationLoadTime": 0.6372711
+    "DeserializationLoadTime": 3.7966763
   },
   "WasLocalDatabaseReferencesEmpty": false
 }
