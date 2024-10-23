@@ -1,0 +1,44 @@
+AccessibilityButtons As CanvasComponent:
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =63
+    Visible: =true
+    Width: =1366
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    imgVectorDark As image:
+        Height: =40
+        Image: =If(DarkMode, 'Vector (13)', 'Vector (12)')
+        OnSelect: =Set(DarkMode,!DarkMode)
+        Width: =40
+        X: =1292
+        Y: =10
+        ZIndex: =2
+
+    "'imgA+Light' As image":
+        Height: =40
+        Image: =If(DarkMode, 'A+DarkMode', 'A+ (1)')
+        OnSelect: |-
+            = Set(FontSize, Min(FontSize + 2, 24));
+             Set(update, Min(update + 4, 16));
+        Width: =40
+        X: =1141
+        Y: =10
+        ZIndex: =3
+
+    "'imgA-Light' As image":
+        Height: =40
+        Image: =If(DarkMode, 'A-DarkMode', 'A- (1)')
+        OnSelect: |-
+            =Set(FontSize, Max(FontSize - 2, 16));
+            Set(update, Max(update -4, 0));
+        PaddingBottom: =2
+        PaddingLeft: =2
+        PaddingRight: =2
+        PaddingTop: =2
+        Width: =40
+        X: =1216
+        Y: =10
+        ZIndex: =5
+

@@ -1,7 +1,7 @@
 Login As screen:
 
     cntrLogo As groupContainer.manualLayoutContainer:
-        Fill: =If(DarkMode, RGBA(1, 169, 152, 1), RGBA(11, 17, 17, 1))
+        Fill: =If(DarkMode, DarkColor, LightColor)
         Height: =768
         RadiusBottomLeft: =0
         RadiusBottomRight: =0
@@ -13,11 +13,12 @@ Login As screen:
 
         imgLogo As image:
             Height: =147 + update
-            Image: ='Design sem nome (10)'
+            Image: =If(DarkMode, 'logo_t2mDarkMode' ,'Design sem nome (10)')
+            Visible: =!DarkMode
             Width: =317 + update
             X: =205
             Y: =(lblTituloLogin.Y - 200) + update
-            ZIndex: =1
+            ZIndex: =3
 
         lblTituloLogin As label:
             Align: =Align.Center
@@ -29,7 +30,7 @@ Login As screen:
             Width: =567
             X: =64
             Y: =399
-            ZIndex: =2
+            ZIndex: =4
 
         btnEntrar As button:
             Color: =RGBA(1, 169, 152, 1)
@@ -40,36 +41,7 @@ Login As screen:
             Width: =317 + update
             X: =189
             Y: =(lblTituloLogin.Y + 150) + update
-            ZIndex: =3
-
-        "'imgA+' As image":
-            Height: =48
-            Image: ='A+'
-            OnSelect: |-
-                =Set(FontSize, Min(FontSize + 2, 24));
-                Set(update, Min(update + 4, 16));
-            Width: =36
-            X: =533
-            ZIndex: =4
-
-        "'imgA-' As image":
-            Height: =48
-            Image: ='A-'
-            OnSelect: |-
-                =Set(FontSize, Max(FontSize - 2, 16));
-                Set(update, Max(update -4, 0));
-            Width: =29
-            X: =586
             ZIndex: =5
-
-        imgVector As image:
-            Height: =26
-            Image: =Vector
-            OnSelect: =Set(DarkMode,!DarkMode);
-            Width: =32
-            X: =630
-            Y: =10
-            ZIndex: =6
 
     ctnFoto As groupContainer.manualLayoutContainer:
         Height: =768
@@ -85,4 +57,7 @@ Login As screen:
             Image: ='pexels-pixabay-356065 1'
             Width: =683
             ZIndex: =2
+
+    AccessibilityButtons_1 As AccessibilityButtons:
+        ZIndex: =3
 
