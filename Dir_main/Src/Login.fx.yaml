@@ -3,10 +3,10 @@ Login As screen:
     cntrLogo As groupContainer.manualLayoutContainer:
         Fill: =RGBA(1, 169, 152, 1)
         Height: =768
-        RadiusBottomLeft: =10
-        RadiusBottomRight: =10
-        RadiusTopLeft: =10
-        RadiusTopRight: =10
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
         Width: =683
         X: =683
         ZIndex: =1
@@ -23,6 +23,7 @@ Login As screen:
             Align: =Align.Center
             FontWeight: =FontWeight.Bold
             Height: =67
+            Size: =FontSize
             Text: ="Sistemas de Gerenciamento de Eventos Corporativos"
             Width: =317
             X: =195
@@ -33,7 +34,7 @@ Login As screen:
             Color: =RGBA(1, 169, 152, 1)
             Fill: =RGBA(16, 25, 25, 1)
             Text: ="Entrar"
-            Width: =317
+            Width: =317 + 
             X: =195
             Y: =462
             ZIndex: =3
@@ -41,6 +42,10 @@ Login As screen:
         "'imgA+' As image":
             Height: =48
             Image: ='A+'
+            OnSelect: |-
+                =Set(FontSize, FontSize + 2);
+                Set(upWidth, upWidth + 2);
+                Set(upHeight, upHeight + 2);
             Width: =36
             X: =533
             ZIndex: =4
@@ -48,19 +53,26 @@ Login As screen:
         "'imgA-' As image":
             Height: =48
             Image: ='A-'
+            OnSelect: |
+                =Set(FontSize, FontSize - 2)
             Width: =29
             X: =586
             ZIndex: =5
 
         imgVector As image:
-            Height: =48
+            Height: =26
             Image: =Vector
-            Width: =30
-            X: =632
+            Width: =32
+            X: =630
+            Y: =10
             ZIndex: =6
 
     ctnFoto As groupContainer.manualLayoutContainer:
         Height: =768
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
         Width: =683
         ZIndex: =2
 
