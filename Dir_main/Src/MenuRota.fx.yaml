@@ -1,0 +1,102 @@
+MenuRota As screen:
+    Fill: =If(DarkMode, ColorValue("White"), VerdeEscuro.Fill)
+
+    Image1 As image:
+        BorderColor: =VerdeClaro.Fill
+        BorderStyle: =VerdeClaro.BorderStyle
+        BorderThickness: =3
+        Fill: =If(DarkMode, VerdeClaro.Fill, VerdeMuitoEscuro.Fill)
+        Height: =188
+        Image: =If(DarkMode, 'Vector (1)', 'Vector (4)')
+        PaddingBottom: =70
+        PaddingLeft: =10
+        PaddingRight: =10
+        PaddingTop: =30
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Width: =184
+        X: =592
+        Y: =321
+        ZIndex: =2
+
+    Image1_1 As image:
+        BorderColor: =VerdeClaro.Fill
+        BorderStyle: =VerdeClaro.BorderStyle
+        BorderThickness: =3
+        Fill: =If(DarkMode, VerdeClaro.Fill, VerdeMuitoEscuro.Fill)
+        Height: =188
+        Image: =If(DarkMode, 'Vector (2)', 'Vector (5)')
+        PaddingBottom: =70
+        PaddingLeft: =10
+        PaddingRight: =10
+        PaddingTop: =30
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Width: =184
+        X: =814
+        Y: =321
+        ZIndex: =3
+
+    Image1_2 As image:
+        BorderColor: =VerdeClaro.Fill
+        BorderStyle: =VerdeClaro.BorderStyle
+        BorderThickness: =3
+        Fill: =If(DarkMode, VerdeClaro.Fill, VerdeMuitoEscuro.Fill)
+        Height: =188
+        Image: =If(DarkMode, Vector_1, 'Vector (3)')
+        PaddingBottom: =70
+        PaddingLeft: =10
+        PaddingRight: =10
+        PaddingTop: =30
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Width: =184
+        X: =368
+        Y: =321
+        ZIndex: =4
+
+    Label1_1 As label:
+        Align: =Align.Center
+        Color: =If(DarkMode, ColorValue("White"), VerdeClaro.Fill)
+        DisplayMode: =DisplayMode.View
+        FontWeight: =FontWeight.Bold
+        Size: =11
+        Text: ="P A L E S T R A N T E S"
+        Width: =184
+        X: =592
+        Y: =456
+        ZIndex: =6
+
+    Label1_2 As label:
+        Align: =Align.Center
+        BorderColor: =VerdeClaro.Fill
+        BorderThickness: =2
+        Color: =If(DarkMode, ColorValue("White"), VerdeClaro.Fill)
+        DisplayMode: =DisplayMode.View
+        FontWeight: =FontWeight.Bold
+        Size: =11
+        Text: ="I N G R E S S O S"
+        X: =831
+        Y: =456
+        ZIndex: =7
+
+    lblTituloLogin_1 As label:
+        Align: =Align.Center
+        AutoHeight: =true
+        Color: =corFonte.Color
+        Font: =Font.Lato
+        FontWeight: =FontWeight.Bold
+        Height: =173
+        Size: =FontSize
+        Text: ="Sistemas de Gerenciamento de Eventos Corporativos"
+        Width: =567
+        X: =400
+        Y: =205
+        ZIndex: =8
+

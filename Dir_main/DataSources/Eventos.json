@@ -6,7 +6,6 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "cr24d_evento",
-    "MaxGetRowsCount": 500,
     "Name": "Eventos",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Proprietário",

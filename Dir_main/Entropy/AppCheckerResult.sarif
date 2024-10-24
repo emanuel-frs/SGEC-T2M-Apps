@@ -14,39 +14,28 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Login.cntrLogo.LayoutDirection"
+                  "fullyQualifiedName": "Screen1"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Login.cntrLogo.LayoutDirection",
+                  "fullyQualifiedName": "Screen1",
                   "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 15,
-                  "snippet": {
-                    "text": ".Manual"
-                  }
                 }
               },
               "properties": {
-                "member": "LayoutDirection",
-                "module": "Login",
-                "type": "Login.cntrLogo"
+                "module": "Screen1",
+                "type": "Screen1"
               }
             }
           ],
           "message": {
-            "arguments": [
-              "Manual"
-            ],
             "id": "issue"
           },
           "properties": {
-            "level": "High"
+            "level": "Low"
           },
-          "ruleId": "app-ErrInvalidName",
+          "ruleId": "acc-ReadableScreenNameNeeded",
           "ruleIndex": 0
         },
         {
@@ -54,59 +43,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Login.ctnFoto.LayoutDirection"
+                  "fullyQualifiedName": "Screen1.Gallery1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Login.ctnFoto.LayoutDirection",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 15,
-                  "snippet": {
-                    "text": ".Manual"
-                  }
-                }
-              },
-              "properties": {
-                "member": "LayoutDirection",
-                "module": "Login",
-                "type": "Login.ctnFoto"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Manual"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Login.cntrLogo.'imgA+'.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Login.cntrLogo.'imgA+'.AccessibleLabel",
+                  "fullyQualifiedName": "Screen1.Gallery1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Login",
-                "type": "Login.cntrLogo.'imgA+'"
+                "module": "Screen1",
+                "type": "Screen1.Gallery1"
               }
             }
           ],
@@ -124,139 +73,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Login.cntrLogo.'imgA+'.TabIndex"
+                  "fullyQualifiedName": "Screen1.Gallery1.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Login.cntrLogo.'imgA+'.TabIndex",
+                  "fullyQualifiedName": "Screen1.Gallery1.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Login",
-                "type": "Login.cntrLogo.'imgA+'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Login.cntrLogo.'imgA-'.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Login.cntrLogo.'imgA-'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Login",
-                "type": "Login.cntrLogo.'imgA-'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Login.cntrLogo.'imgA-'.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Login.cntrLogo.'imgA-'.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Login",
-                "type": "Login.cntrLogo.'imgA-'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Login.cntrLogo.imgVector.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Login.cntrLogo.imgVector.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Login",
-                "type": "Login.cntrLogo.imgVector"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Login.cntrLogo.imgVector.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Login.cntrLogo.imgVector.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Login",
-                "type": "Login.cntrLogo.imgVector"
+                "module": "Screen1",
+                "type": "Screen1.Gallery1"
               }
             }
           ],
@@ -276,20 +105,20 @@
           "name": "PowerApps app checker",
           "rules": [
             {
-              "id": "app-ErrInvalidName",
+              "id": "acc-ReadableScreenNameNeeded",
               "messageStrings": {
                 "issue": {
-                  "text": "Name isn't valid. '{0}' isn't recognized."
+                  "text": "Revise screen name"
                 }
               },
               "properties": {
                 "componentType": "app",
                 "howToFix": [
-                  "Remove or correct the reference to the name that isn't valid."
+                  "Give the screen  a title that describes what's on the screen or what it's used for."
                 ],
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
+                "level": "Low",
+                "primaryCategory": "accessibility",
+                "whyFix": "People who are blind, have low vision, or a reading disability rely on screen titles to navigate using the screen reader. "
               }
             },
             {
