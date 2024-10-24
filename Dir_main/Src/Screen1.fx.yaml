@@ -4,11 +4,14 @@ Screen1 As screen:
     Container2 As groupContainer.manualLayoutContainer:
         BorderColor: =If(DarkMode, CinzaMedio.Fill, VerdeMedio.Fill)
         BorderThickness: =2
+        DropShadow: =DropShadow.None
         Height: =597
-        RadiusBottomLeft: =20
-        RadiusBottomRight: =20
-        RadiusTopLeft: =20
-        RadiusTopRight: =20
+        LayoutDirection: =LayoutDirection.Manual
+        LayoutMode: =LayoutMode.Auto
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
         Width: =1066
         X: =176
         Y: =117
@@ -297,12 +300,15 @@ Screen1 As screen:
             ZIndex: =5
 
         Container3 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.None
             Fill: =If(DarkMode, CinzaClaro.Fill, VerdeMuitoEscuro.Fill)
             Height: =597
-            RadiusBottomLeft: =20
-            RadiusBottomRight: =20
-            RadiusTopLeft: =20
-            RadiusTopRight: =20
+            LayoutDirection: =LayoutDirection.Manual
+            LayoutMode: =LayoutMode.Auto
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
             Width: =531
             X: =If(escolherParticipante, 0, 535)
             ZIndex: =6

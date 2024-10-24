@@ -7,7 +7,14 @@ Cabecalho As CanvasComponent:
     ZIndex: =1
 
     Container1 As groupContainer.manualLayoutContainer:
+        DropShadow: =DropShadow.None
         Fill: =RGBA(1, 169, 152, 1)
+        LayoutDirection: =LayoutDirection.Manual
+        LayoutMode: =LayoutMode.Auto
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
         Width: =1366
         Y: =40
         ZIndex: =1

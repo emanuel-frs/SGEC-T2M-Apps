@@ -999,7 +999,7 @@
       "MetaDataIDKey": "",
       "Name": "Label1_1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 4,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1311,7 +1311,7 @@
       "MetaDataIDKey": "",
       "Name": "Label1_2",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 5,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1631,7 +1631,7 @@
       "MetaDataIDKey": "",
       "Name": "lblTituloLogin_1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 6,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

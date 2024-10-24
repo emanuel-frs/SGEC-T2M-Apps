@@ -93,7 +93,7 @@
         "Rules": [
           {
             "Category": "Data",
-            "InvariantScript": "If(Parent.DarkModeValue, 'Vector (13)', 'Vector (12)')",
+            "InvariantScript": "If(DarkMode, 'Vector (13)', 'Vector (12)')",
             "Property": "Image",
             "RuleProviderType": "User"
           },
@@ -111,7 +111,7 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "1292",
+            "InvariantScript": "1298",
             "Property": "X",
             "RuleProviderType": "Unknown"
           },
@@ -123,7 +123,7 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "40",
+            "InvariantScript": "36",
             "Property": "Width",
             "RuleProviderType": "Unknown"
           },
@@ -273,7 +273,7 @@
           },
           {
             "Category": "Behavior",
-            "InvariantScript": "Parent.OnDarkModeChange = !Parent.DarkModeValue",
+            "InvariantScript": "Set(DarkMode, !DarkMode);",
             "Property": "OnSelect",
             "RuleProviderType": "User"
           }
@@ -935,7 +935,7 @@
       "DarkModeValue",
       "OnDarkModeChange"
     ],
-    "LastModifiedTimestamp": "638653715521709268",
+    "LastModifiedTimestamp": "638653751816558753",
     "Name": "AccessibilityButtons",
     "Rules": [
       {
@@ -1031,7 +1031,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638653715521709268",
+  "LastModifiedTimestamp": "638653751816558753",
   "Name": "07b4cef7e5b148ca8bc48c2009606d8d",
   "OverridableProperties": {},
   "Version": "1.0"
