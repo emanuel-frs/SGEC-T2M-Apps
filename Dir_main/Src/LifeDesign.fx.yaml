@@ -338,7 +338,7 @@ LifeDesign As screen:
     corFonte As label:
         Color: =If(DarkMode, ColorValue("Black"), ColorValue("White"))
         Text: ="Text"
-        X: =47
-        Y: =688
+        X: =173
+        Y: =660
         ZIndex: =41
 

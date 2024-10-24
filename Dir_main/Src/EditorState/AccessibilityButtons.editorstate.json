@@ -1,7 +1,7 @@
 {
   "ControlStates": {
     "AccessibilityButtons": {
-      "AllowAccessToGlobals": true,
+      "AllowAccessToGlobals": false,
       "ControlPropertyState": [
         {
           "AFDDataSourceName": "",

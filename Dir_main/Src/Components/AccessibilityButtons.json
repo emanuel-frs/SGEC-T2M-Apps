@@ -2,7 +2,7 @@
   "ComponentAllowCustomization": true,
   "ComponentChangedSinceFileImport": true,
   "ComponentDefinitionInfo": {
-    "AllowAccessToGlobals": true,
+    "AllowAccessToGlobals": false,
     "Children": [
       {
         "AllowAccessToGlobals": true,
@@ -93,7 +93,7 @@
         "Rules": [
           {
             "Category": "Data",
-            "InvariantScript": "If(DarkMode, 'Vector (13)', 'Vector (12)')",
+            "InvariantScript": "If(Parent.DarkModeValue, 'Vector (13)', 'Vector (12)')",
             "Property": "Image",
             "RuleProviderType": "User"
           },
@@ -111,7 +111,7 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "1298",
+            "InvariantScript": "1292",
             "Property": "X",
             "RuleProviderType": "Unknown"
           },
@@ -123,7 +123,7 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "36",
+            "InvariantScript": "40",
             "Property": "Width",
             "RuleProviderType": "Unknown"
           },
@@ -273,7 +273,7 @@
           },
           {
             "Category": "Behavior",
-            "InvariantScript": "Set(DarkMode, !DarkMode);",
+            "InvariantScript": "Parent.OnDarkModeChange = !Parent.DarkModeValue",
             "Property": "OnSelect",
             "RuleProviderType": "User"
           }
@@ -935,7 +935,7 @@
       "DarkModeValue",
       "OnDarkModeChange"
     ],
-    "LastModifiedTimestamp": "638653735026376232",
+    "LastModifiedTimestamp": "638653715521709268",
     "Name": "AccessibilityButtons",
     "Rules": [
       {
@@ -995,7 +995,7 @@
     ]
   },
   "ComponentManifest": {
-    "AllowAccessToGlobals": true,
+    "AllowAccessToGlobals": false,
     "AllowCustomization": true,
     "Description": "",
     "Name": "AccessibilityButtons",
@@ -1031,7 +1031,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638653735026376232",
+  "LastModifiedTimestamp": "638653715521709268",
   "Name": "07b4cef7e5b148ca8bc48c2009606d8d",
   "OverridableProperties": {},
   "Version": "1.0"
