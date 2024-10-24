@@ -18,6 +18,7 @@ LifeDesign As screen:
         ZIndex: =2
 
     VerdeClaro As rectangle:
+        BorderColor: =RGBA(1, 169, 152, 1)
         Fill: =RGBA(1, 169, 152, 1)
         Height: =30
         Width: =30
@@ -333,4 +334,11 @@ LifeDesign As screen:
         X: =550
         Y: =191
         ZIndex: =40
+
+    corFonte As label:
+        Color: =If(DarkMode, ColorValue("Black"), ColorValue("White"))
+        Text: ="Text"
+        X: =173
+        Y: =660
+        ZIndex: =41
 

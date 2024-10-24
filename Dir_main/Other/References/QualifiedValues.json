@@ -36,13 +36,6 @@
       }
     },
     {
-      "Kind": "default.cds_cr24d_evento_forms",
-      "Namespace": "Eventos (Forms)",
-      "Values": {
-        "Informações": "1cbd00a8-5d63-4215-a85a-9c4f95ad7f3d"
-      }
-    },
-    {
       "Kind": "default.cds_cr24d_eventopalestrante_forms",
       "Namespace": "EventoPalestrantes (Forms)",
       "Values": {
@@ -50,10 +43,10 @@
       }
     },
     {
-      "Kind": "default.cds_cr24d_palestrante_forms",
-      "Namespace": "Palestrantes (Forms)",
+      "Kind": "default.cds_cr24d_evento_forms",
+      "Namespace": "Eventos (Forms)",
       "Values": {
-        "Informações": "331a2a52-4a7e-4ae0-bf7f-d6792cfbb5b5"
+        "Informações": "1cbd00a8-5d63-4215-a85a-9c4f95ad7f3d"
       }
     },
     {
@@ -61,6 +54,13 @@
       "Namespace": "Inscricaos (Forms)",
       "Values": {
         "Informações": "febfd295-377c-42eb-b3ca-b828cd944315"
+      }
+    },
+    {
+      "Kind": "default.cds_cr24d_palestrante_forms",
+      "Namespace": "Palestrantes (Forms)",
+      "Values": {
+        "Informações": "331a2a52-4a7e-4ae0-bf7f-d6792cfbb5b5"
       }
     },
     {

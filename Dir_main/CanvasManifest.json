@@ -139,6 +139,7 @@
   "ScreenOrder": [
     "Login",
     "LifeDesign",
-    "tela 3"
+    "MenuRota",
+    "Screen1"
   ]
 }
