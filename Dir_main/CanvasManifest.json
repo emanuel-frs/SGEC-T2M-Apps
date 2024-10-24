@@ -138,7 +138,8 @@
   },
   "ScreenOrder": [
     "Login",
-    "Tela 2- teste",
-    "tela 3"
+    "LifeDesign",
+    "MenuRota",
+    "Screen1"
   ]
 }
