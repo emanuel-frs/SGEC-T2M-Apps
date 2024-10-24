@@ -1,7 +1,7 @@
 Login As screen:
 
     cntrLogo As groupContainer.manualLayoutContainer:
-        Fill: =If(DarkMode, DarkColor, LightColor)
+        Fill: =If(DarkMode, RGBA(11, 17, 17, 1), RGBA(1, 169, 152, 1) )
         Height: =768
         RadiusBottomLeft: =0
         RadiusBottomRight: =0

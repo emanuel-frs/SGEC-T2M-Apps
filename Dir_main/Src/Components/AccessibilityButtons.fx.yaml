@@ -11,10 +11,10 @@ AccessibilityButtons As CanvasComponent:
 
     imgVectorDark As image:
         Height: =40
-        Image: =If(Parent.DarkModeValue, 'Vector (13)', 'Vector (12)')
-        OnSelect: =Parent.OnDarkModeChange = !Parent.DarkModeValue
-        Width: =40
-        X: =1292
+        Image: =If(DarkMode, 'Vector (13)', 'Vector (12)')
+        OnSelect: =Set(DarkMode, !DarkMode);
+        Width: =36
+        X: =1298
         Y: =10
         ZIndex: =2
 
