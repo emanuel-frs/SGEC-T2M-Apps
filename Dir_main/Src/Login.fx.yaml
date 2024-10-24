@@ -1,8 +1,11 @@
 Login As screen:
 
     cntrLogo As groupContainer.manualLayoutContainer:
+        DropShadow: =DropShadow.None
         Fill: =If(DarkMode, RGBA(1, 169, 152, 1), RGBA(11, 17, 17, 1))
         Height: =768
+        LayoutDirection: =LayoutDirection.Manual
+        LayoutMode: =LayoutMode.Auto
         RadiusBottomLeft: =0
         RadiusBottomRight: =0
         RadiusTopLeft: =0
@@ -72,7 +75,10 @@ Login As screen:
             ZIndex: =6
 
     ctnFoto As groupContainer.manualLayoutContainer:
+        DropShadow: =DropShadow.None
         Height: =768
+        LayoutDirection: =LayoutDirection.Manual
+        LayoutMode: =LayoutMode.Auto
         RadiusBottomLeft: =0
         RadiusBottomRight: =0
         RadiusTopLeft: =0
