@@ -139,6 +139,7 @@
   "ScreenOrder": [
     "Login",
     "LifeDesign",
-    "MenuRota"
+    "MenuRota",
+    "Screen1"
   ]
 }

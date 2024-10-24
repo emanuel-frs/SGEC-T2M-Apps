@@ -101,6 +101,7 @@ MenuRota As screen:
         Align: =Align.Center
         AutoHeight: =true
         Color: =corFonte.Color
+        Font: =Font.Lato
         FontWeight: =FontWeight.Bold
         Height: =173
         Size: =FontSize
