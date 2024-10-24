@@ -6,7 +6,6 @@ App As appinfo:
         Set(DarkMode, false);
         Set(DarkColor, RGBA(11, 17, 17, 1));
         Set(LightColor, RGBA(1, 169, 152, 1));
-        
         Set(escolherParticipante, false)
     Theme: =PowerAppsTheme
 
