@@ -47,7 +47,7 @@ MenuRota As screen:
         BorderThickness: =3
         Fill: =If(DarkMode, VerdeClaro.Fill, VerdeMuitoEscuro.Fill)
         Height: =188
-        Image: =If(DarkMode, 'Vector_1', 'Vector (3)')
+        Image: =If(DarkMode, Vector_1, 'Vector (3)')
         PaddingBottom: =70
         PaddingLeft: =10
         PaddingRight: =10
